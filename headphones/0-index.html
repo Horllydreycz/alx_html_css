@@ -3,87 +3,58 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="0-styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>Headphones Hero</title>
+
     <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap"
+    />
+    <link rel="stylesheet" href="0-styles.css" />
   </head>
   <body>
-    <!-- HERO SECTION-->
-    <section class="hero-section container">
-      <nav class="nav-bar">
-        <button>
-          <img src="/assets/images/menu.svg" alt="hambuger icon" />
-        </button>
-        <img src="/assets/images/logo_headphones.png" alt="logo icon" />
-        <ul>
-          <li>
-            <a href="">what we do</a>
-          </li>
-          <li>
-            <a href="">our results</a>
-          </li>
-          <li>
-            <a href="">contact us</a>
-          </li>
-        </ul>
-      </nav>
-      <article>
-        <h1>Lorem ipsum dolor set amet lorem ipsum</h1>
-        <h2>Lorem ipsum dolor set amet lorem ipsum dolor set</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur.
-        </p>
-        <button class="call-to-action-btn">CALL TO ACTION</button>
-      </article>
+    <section class="hero-section">
+      <header>
+        <input type="checkbox" id="menu-toggle" />
+        <label class="menu-icon" for="menu-toggle">
+          <i class="fa-solid fa-bars"></i>
+          <i class="fa-solid fa-xmark"></i>
+        </label>
+
+        <img src="/assets/images/logo_headphones.png" alt="headphones logo" />
+
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#">What we do</a></li>
+            <li><a href="#about">Our results</a></li>
+            <li><a href="#contact">Contact us</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <div class="home-hero">
+          <h1>Lorem ipsum dolor sit amet lorem ipsum</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo.
+          </p>
+          <button>Call to Action</button>
+        </div>
+        <div class="home-description">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+            eligendi quia hic, dolores laborum non nihil quas, a eveniet
+            cupiditate quae aliquid voluptate asperiores officiis quasi nostrum,
+            nisi ex expedita!. Lorem ipsum dolor sit amet consectetur,
+            adipisicing elit. Quaerat consectetur, magnam sequi facilis ducimus
+            explicabo saepe odio ipsum aut quos qui accusantium
+          </p>
+        </div>
+      </main>
     </section>
-    <!--TEXT SECTION 1-->
-    <section class="text-section-1">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur.
-      </p>
-    </section>
-    <section>
-      <div>
-        <img
-          src="/assets/images/sound_frequency.jpg"
-          alt="sound_frequency icon"
-        />
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-      <div>
-        <img src="/assets/images/video.jpg" alt="video icon" />
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-      <div>
-        <img src="/assets/images/music.jpg" alt="music icon" />
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-      <div>
-        <img src="/assets/images/hearing.jpg" alt="hearing icon" />
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-    </section>
-    <!--TEXT SECTION 2-->
-    <section></section>
-    <!--CONTACT FORM-->
-    <section>
-      <form action=""></form>
-    </section>
-    <!--FOOTER-->
-    <footer></footer>
   </body>
 </html>
